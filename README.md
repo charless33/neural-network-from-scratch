@@ -37,7 +37,7 @@ print(network.output)
 probabilities = network.softmax(network.output)
 ```
 
-For netbuilderpro the API is the same but backpropagate takes extra parameters:
+For netbuilderpro it's the same but backpropagate takes extra parameters:
 
 ```python
 network.backpropagate(expected_outputs, learning_rate, beta1=0.9, beta2=0.999, epsilon=1e-8)
